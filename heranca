@@ -1,0 +1,44 @@
+package POO2;
+
+public class heranca {
+	
+public static void main(String[] args) {
+		
+		cachorro cachorro = new cachorro();
+		cavalo cavalo = new cavalo();
+		preguica preguica = new preguica();
+		
+		System.out.println("\tCachorro");
+		cachorro.setNome("Poly");
+		cachorro.setIdade(3);
+		cachorro.setSom(true);
+		cachorro.setCorrer(true);
+		cachorro.setSexo("Fêmea");
+		cachorro.getCorrer();
+		cachorro.estado();
+		cachorro.estado1();
+		cachorro.statusLocomocao();
+		
+		System.out.println("\n\tCavalo");
+		cavalo.setNome("Branco");
+		cavalo.setIdade(1);
+		cavalo.setSom(true);
+		cavalo.setCorrer(false);
+		cavalo.setTamanho("Potro");
+		cavalo.estado();
+		cavalo.estado2();
+		cavalo.StatusLocomocao();
+		
+		System.out.println("\n\t Preguiça");
+		preguica.setNome("Jubileu");
+		preguica.setIdade(60);
+		preguica.setSom(true);
+		preguica.setMovimento(false);
+		preguica.setCor("Branco");
+		preguica.estado();
+		preguica.estado3();
+		preguica.statusLocomocao();
+		
+	}
+
+}
